@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS ফরওয়ার্ড করা হচ্ছে</string>
+    <string name="label_enable">সার্ভিস সক্রিয় করো</string>
+    <string name="label_recipient">প্রাপক ফরওয়ার্ড করা হচ্ছে:</string>
+    <string name="label_sender">সেন্ডারকে অবশ্যই শেষ করতে হবে:</string>
+    <string name="label_button_cancel">বাতিল করো</string>
+    <string name="label_button_delete">মুছে ফেলো</string>
+    <string name="label_button_save">সংরক্ষণ করো</string>
+    <string name="menu_add">যোগ করো</string>
+    <string name="error_missing_required_value">সমস্যা: অনুপস্থিত আবশ্যক মান</string>
+    <string name="error_add_listitem">সমস্যা: নতুন আইটেম তালিকায় যোগ করা যায়নি</string>
+</resources>

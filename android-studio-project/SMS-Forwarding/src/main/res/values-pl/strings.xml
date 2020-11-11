@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS Przekazywanie</string>
+    <string name="label_enable">Włącz usługę</string>
+    <string name="label_recipient">Odbiorca przesyłania:</string>
+    <string name="label_sender">Nadawca musi kończyć się:</string>
+    <string name="label_button_cancel">ANULUJ</string>
+    <string name="label_button_delete">USUŃ</string>
+    <string name="label_button_save">ZAPISZ</string>
+    <string name="menu_add">DODAJ</string>
+    <string name="error_missing_required_value">Błąd: Brak wymaganej wartości</string>
+    <string name="error_add_listitem">Błąd: Nie można dodać nowego elementu do listy</string>
+</resources>

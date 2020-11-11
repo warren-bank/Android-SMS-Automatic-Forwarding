@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS Chuyển tiếp</string>
+    <string name="label_enable">Bật Dịch vụ</string>
+    <string name="label_recipient">Người nhận chuyển tiếp:</string>
+    <string name="label_sender">Người gửi phải kết thúc với:</string>
+    <string name="label_button_cancel">HỦY</string>
+    <string name="label_button_delete">XÓA</string>
+    <string name="label_button_save">SAVE</string>
+    <string name="menu_add">ADD</string>
+    <string name="error_missing_required_value">Lỗi: Thiếu Giá Trị Yêu Cầu</string>
+    <string name="error_add_listitem">Lỗi: Không thể thêm mục mới vào danh sách</string>
+</resources>
