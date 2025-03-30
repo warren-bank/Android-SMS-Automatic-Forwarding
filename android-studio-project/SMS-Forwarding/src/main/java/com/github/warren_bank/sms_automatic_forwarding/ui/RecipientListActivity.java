@@ -35,7 +35,7 @@ public class RecipientListActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_preference);
+    setContentView(R.layout.activity_recipient_list);
 
     inputEnable = (CheckBox) findViewById(R.id.input_enable);
     listView    = (ListView) findViewById(R.id.listview);
@@ -89,7 +89,7 @@ public class RecipientListActivity extends Activity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     getActionBar().setDisplayShowHomeEnabled(false);
-    getMenuInflater().inflate(R.menu.activity_preference, menu);
+    getMenuInflater().inflate(R.menu.activity_recipient_list, menu);
     return true;
   }
 
@@ -120,7 +120,7 @@ public class RecipientListActivity extends Activity {
 
     final Dialog dialog = new Dialog(RecipientListActivity.this, R.style.app_theme);
     dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-    dialog.setContentView(R.layout.dialog_listitem);
+    dialog.setContentView(R.layout.dialog_recipient_listitem);
 
     final EditText inputRecipient = (EditText) dialog.findViewById(R.id.input_recipient);
     final EditText inputSender    = (EditText) dialog.findViewById(R.id.input_sender);
