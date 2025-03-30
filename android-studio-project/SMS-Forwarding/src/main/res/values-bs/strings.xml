@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMS Prosljeđivanje</string>
-    <string name="label_enable">Omogući uslugu</string>
-    <string name="label_recipient">Primatelj poruke:</string>
-    <string name="label_sender">Pošiljatelj mora završiti sa:</string>
-    <string name="label_button_cancel">OPOZIV</string>
-    <string name="label_button_delete">BRIŠI</string>
-    <string name="label_button_save">SPREMI</string>
-    <string name="menu_add">DODAJ</string>
-    <string name="error_missing_required_value">Greška: Nedostaje potrebna vrijednost</string>
-    <string name="error_add_listitem">Greška: Ne mogu dodati novu stavku u listu</string>
+  <string name="app_name">SMS Prosljeđivanje</string>
+  <string name="label_enable">Omogući uslugu</string>
+  <string name="label_recipient">Primatelj poruke:</string>
+  <string name="label_sender">Pošiljatelj mora završiti sa:</string>
+  <string name="label_button_cancel">OPOZIV</string>
+  <string name="label_button_delete">BRIŠI</string>
+  <string name="label_button_save">SPREMI</string>
+  <string name="menu_add">DODAJ</string>
+  <string name="error_missing_required_value">Greška: Nedostaje potrebna vrijednost</string>
+  <string name="error_add_listitem">Greška: Ne mogu dodati novu stavku u listu</string>
 </resources>

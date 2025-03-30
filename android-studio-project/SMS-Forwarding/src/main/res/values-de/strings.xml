@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMS Weiterleitung</string>
-    <string name="label_enable">Service aktivieren</string>
-    <string name="label_recipient">Weiterleitungsempfänger:</string>
-    <string name="label_sender">Absender muss mit:</string>
-    <string name="label_button_cancel">ABBRECHEN</string>
-    <string name="label_button_delete">LÖSCHEN</string>
-    <string name="label_button_save">SAVE</string>
-    <string name="menu_add">HINZUFÜGEN</string>
-    <string name="error_missing_required_value">Fehler: Fehlender erforderlicher Wert</string>
-    <string name="error_add_listitem">Fehler: Neues Element konnte nicht zur Liste hinzugefügt werden</string>
+  <string name="app_name">SMS Weiterleitung</string>
+  <string name="label_enable">Service aktivieren</string>
+  <string name="label_recipient">Weiterleitungsempfänger:</string>
+  <string name="label_sender">Absender muss mit:</string>
+  <string name="label_button_cancel">ABBRECHEN</string>
+  <string name="label_button_delete">LÖSCHEN</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="menu_add">HINZUFÜGEN</string>
+  <string name="error_missing_required_value">Fehler: Fehlender erforderlicher Wert</string>
+  <string name="error_add_listitem">Fehler: Neues Element konnte nicht zur Liste hinzugefügt werden</string>
 </resources>

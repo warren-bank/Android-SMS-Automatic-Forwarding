@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMS Înaintare</string>
-    <string name="label_enable">Activare serviciu</string>
-    <string name="label_recipient">Destinatar înaintare:</string>
-    <string name="label_sender">Expeditorul trebuie să se termine:</string>
-    <string name="label_button_cancel">ANULARE</string>
-    <string name="label_button_delete">DELETE</string>
-    <string name="label_button_save">SAVE</string>
-    <string name="menu_add">ADD</string>
-    <string name="error_missing_required_value">Eroare: Lipsă valoare necesară</string>
-    <string name="error_add_listitem">Eroare: Nu s-a putut adăuga un articol nou la listă</string>
+  <string name="app_name">SMS Înaintare</string>
+  <string name="label_enable">Activare serviciu</string>
+  <string name="label_recipient">Destinatar înaintare:</string>
+  <string name="label_sender">Expeditorul trebuie să se termine:</string>
+  <string name="label_button_cancel">ANULARE</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="menu_add">ADD</string>
+  <string name="error_missing_required_value">Eroare: Lipsă valoare necesară</string>
+  <string name="error_add_listitem">Eroare: Nu s-a putut adăuga un articol nou la listă</string>
 </resources>

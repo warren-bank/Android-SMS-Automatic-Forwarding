@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMS اعادة الارسال</string>
-    <string name="label_enable">اتاحة الخدمة</string>
-    <string name="label_recipient">ارسال مستلم:</string>
-    <string name="label_sender">يجب انهاء الراسل باستخدام:</string>
-    <string name="label_button_cancel">الغاء</string>
-    <string name="label_button_delete">حذف</string>
-    <string name="label_button_save">حفظ</string>
-    <string name="menu_add">اضافة</string>
-    <string name="error_missing_required_value">خطأ : القيمة المطلوبة غير موجودة</string>
-    <string name="error_add_listitem">خطأ : لا يمكن اضافة بند جديد الى الكشف</string>
+  <string name="app_name">SMS اعادة الارسال</string>
+  <string name="label_enable">اتاحة الخدمة</string>
+  <string name="label_recipient">ارسال مستلم:</string>
+  <string name="label_sender">يجب انهاء الراسل باستخدام:</string>
+  <string name="label_button_cancel">الغاء</string>
+  <string name="label_button_delete">حذف</string>
+  <string name="label_button_save">حفظ</string>
+  <string name="menu_add">اضافة</string>
+  <string name="error_missing_required_value">خطأ : القيمة المطلوبة غير موجودة</string>
+  <string name="error_add_listitem">خطأ : لا يمكن اضافة بند جديد الى الكشف</string>
 </resources>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMS ఫార్వార్డింగ్</string>
-    <string name="label_enable">సేవను చేర్చు</string>
-    <string name="label_recipient">ఫార్వార్డింగ్ చేర్చు:</string>
-    <string name="label_sender">సెండర్ ముగించాలి:</string>
-    <string name="label_button_cancel">రద్దు</string>
-    <string name="label_button_delete">తొలగించు</string>
-    <string name="label_button_save">\@ ACTION: BUTTON</string>
-    <string name="menu_add">\@ TITLE: WINDOW</string>
-    <string name="error_missing_required_value">దోషము: మినహాయించబడిన విలుణము</string>
-    <string name="error_add_listitem">దోషము: జాబితాకు కొత్త అంశమును జతచేయలేక పోయింది</string>
+  <string name="app_name">SMS ఫార్వార్డింగ్</string>
+  <string name="label_enable">సేవను చేర్చు</string>
+  <string name="label_recipient">ఫార్వార్డింగ్ చేర్చు:</string>
+  <string name="label_sender">సెండర్ ముగించాలి:</string>
+  <string name="label_button_cancel">రద్దు</string>
+  <string name="label_button_delete">తొలగించు</string>
+  <string name="label_button_save">\@ ACTION: BUTTON</string>
+  <string name="menu_add">\@ TITLE: WINDOW</string>
+  <string name="error_missing_required_value">దోషము: మినహాయించబడిన విలుణము</string>
+  <string name="error_add_listitem">దోషము: జాబితాకు కొత్త అంశమును జతచేయలేక పోయింది</string>
 </resources>

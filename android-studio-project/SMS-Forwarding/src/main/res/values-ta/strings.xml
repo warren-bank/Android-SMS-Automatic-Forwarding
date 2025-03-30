@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMS ஃபோர்டிங்</string>
-    <string name="label_enable">சேவையை செயல்படுத்து</string>
-    <string name="label_recipient">மறையாக்க பெறுநர்:</string>
-    <string name="label_sender">Sender இன் முடிவு:</string>
-    <string name="label_button_cancel">ரத்து செய்</string>
-    <string name="label_button_delete">நீக்கு</string>
-    <string name="label_button_save">சேமி</string>
-    <string name="menu_add">சேர்</string>
-    <string name="error_missing_required_value">பிழை: தேவையான மதிப்பு</string>
-    <string name="error_add_listitem">பிழை: புதிய உருப்படியை பட்டியலுக்கு சேர்க்க முடியவில்லை</string>
+  <string name="app_name">SMS ஃபோர்டிங்</string>
+  <string name="label_enable">சேவையை செயல்படுத்து</string>
+  <string name="label_recipient">மறையாக்க பெறுநர்:</string>
+  <string name="label_sender">Sender இன் முடிவு:</string>
+  <string name="label_button_cancel">ரத்து செய்</string>
+  <string name="label_button_delete">நீக்கு</string>
+  <string name="label_button_save">சேமி</string>
+  <string name="menu_add">சேர்</string>
+  <string name="error_missing_required_value">பிழை: தேவையான மதிப்பு</string>
+  <string name="error_add_listitem">பிழை: புதிய உருப்படியை பட்டியலுக்கு சேர்க்க முடியவில்லை</string>
 </resources>
