@@ -1,20 +1,22 @@
 buildscript {
-    repositories {
-        google()
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0'    // https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
-    }
+  repositories {
+    google()
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:8.7.2'    // https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
+                                                        // https://developer.android.com/build/releases/gradle-plugin#updating-gradle
+                                                        // https://developer.android.com/build/releases/gradle-plugin#api-level-support
+  }
 }
 
 allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
+  repositories {
+    google()
+    mavenCentral()
+  }
 }
 
 task clean(type: Delete) {
-    delete rootProject.buildDir
+  delete rootProject.buildDir
 }
