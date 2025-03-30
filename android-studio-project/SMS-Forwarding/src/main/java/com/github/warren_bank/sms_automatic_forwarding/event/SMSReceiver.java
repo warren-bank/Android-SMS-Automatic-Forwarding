@@ -1,8 +1,8 @@
 package com.github.warren_bank.sms_automatic_forwarding.event;
 
 import com.github.warren_bank.sms_automatic_forwarding.R;
-import com.github.warren_bank.sms_automatic_forwarding.data_model.ListItem;
 import com.github.warren_bank.sms_automatic_forwarding.data_model.Preferences;
+import com.github.warren_bank.sms_automatic_forwarding.data_model.RecipientListItem;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -27,7 +27,7 @@ public class SMSReceiver extends BroadcastReceiver {
     if (extras == null)
       return;
 
-    final ArrayList<ListItem> listItems = Preferences.getListItems(context);
+    final ArrayList<RecipientListItem> listItems = Preferences.getRecipientListItems(context);
 
     if (listItems.isEmpty())
       return;
@@ -46,7 +46,7 @@ public class SMSReceiver extends BroadcastReceiver {
         try {
           sender     = message.getOriginatingAddress().trim();
           body       = message.getMessageBody().trim();
-          recipients = ListItem.get_matching_recipients(listItems, sender);
+          recipients = RecipientListItem.match(listItems, sender);
 
           Log.i(TAG, "SMS received.\nfrom: " + sender + "\nmessage: " + body);
 

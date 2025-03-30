@@ -21,18 +21,18 @@ public final class Preferences {
     prefs_editor.apply();
   }
 
-  public static ArrayList<ListItem> getListItems(Context context) {
+  public static ArrayList<RecipientListItem> getRecipientListItems(Context context) {
     SharedPreferences sharedPreferences = context.getSharedPreferences(PREFS_FILENAME, Context.MODE_PRIVATE);
     String json = sharedPreferences.getString(PREF_LISTITEMS, null);
 
     return (json == null)
-      ? new ArrayList<ListItem>()
-      : ListItem.fromJson(json)
+      ? new ArrayList<RecipientListItem>()
+      : RecipientListItem.fromJson(json)
     ;
   }
 
-  public static void setListItems(Context context, ArrayList<ListItem> listItems) {
-    String json = ListItem.toJson(listItems);
+  public static void setRecipientListItems(Context context, ArrayList<RecipientListItem> listItems) {
+    String json = RecipientListItem.toJson(listItems);
 
     SharedPreferences sharedPreferences = context.getSharedPreferences(PREFS_FILENAME, Context.MODE_PRIVATE);
     SharedPreferences.Editor prefs_editor = sharedPreferences.edit();

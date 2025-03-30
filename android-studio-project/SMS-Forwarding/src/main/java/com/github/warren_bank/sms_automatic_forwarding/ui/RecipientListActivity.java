@@ -1,8 +1,8 @@
 package com.github.warren_bank.sms_automatic_forwarding.ui;
 
 import com.github.warren_bank.sms_automatic_forwarding.R;
-import com.github.warren_bank.sms_automatic_forwarding.data_model.ListItem;
 import com.github.warren_bank.sms_automatic_forwarding.data_model.Preferences;
+import com.github.warren_bank.sms_automatic_forwarding.data_model.RecipientListItem;
 import com.github.warren_bank.sms_automatic_forwarding.security_model.RuntimePermissions;
 
 import android.app.Activity;
@@ -21,12 +21,12 @@ import android.widget.ListView;
 import android.widget.Toast;
 import java.util.ArrayList;
 
-public class PreferenceActivity extends Activity {
+public class RecipientListActivity extends Activity {
   private CheckBox inputEnable;
   private ListView listView;
 
-  private ArrayList<ListItem>   listItems;
-  private ArrayAdapter<ListItem>  listAdapter;
+  private ArrayList<RecipientListItem>    listItems;
+  private ArrayAdapter<RecipientListItem> listAdapter;
 
   // ---------------------------------------------------------------------------------------------
   // Lifecycle Events:
@@ -38,10 +38,10 @@ public class PreferenceActivity extends Activity {
     setContentView(R.layout.activity_preference);
 
     inputEnable = (CheckBox) findViewById(R.id.input_enable);
-    listView  = (ListView) findViewById(R.id.listview);
+    listView    = (ListView) findViewById(R.id.listview);
 
-    listItems   = Preferences.getListItems(PreferenceActivity.this);
-    listAdapter = new ArrayAdapter<ListItem>(PreferenceActivity.this, android.R.layout.simple_list_item_1, listItems);
+    listItems   = Preferences.getRecipientListItems(RecipientListActivity.this);
+    listAdapter = new ArrayAdapter<RecipientListItem>(RecipientListActivity.this, android.R.layout.simple_list_item_1, listItems);
     listView.setAdapter(listAdapter);
 
     listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -52,15 +52,15 @@ public class PreferenceActivity extends Activity {
       }
     });
 
-    if (RuntimePermissions.isEnabled(PreferenceActivity.this)) {
-      inputEnable.setChecked(Preferences.isEnabled(PreferenceActivity.this));
+    if (RuntimePermissions.isEnabled(RecipientListActivity.this)) {
+      inputEnable.setChecked(Preferences.isEnabled(RecipientListActivity.this));
       inputEnable.setEnabled(true);
       inputEnable.setClickable(true);
 
       inputEnable.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-          Preferences.setEnabled(PreferenceActivity.this, inputEnable.isChecked());
+          Preferences.setEnabled(RecipientListActivity.this, inputEnable.isChecked());
         }
       });
     }
@@ -69,8 +69,8 @@ public class PreferenceActivity extends Activity {
       inputEnable.setEnabled(false);
       inputEnable.setClickable(false);
 
-      if (Preferences.isEnabled(PreferenceActivity.this)) {
-        Preferences.setEnabled(PreferenceActivity.this, false);
+      if (Preferences.isEnabled(RecipientListActivity.this)) {
+        Preferences.setEnabled(RecipientListActivity.this, false);
       }
     }
   }
@@ -79,7 +79,7 @@ public class PreferenceActivity extends Activity {
   public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
     super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-    RuntimePermissions.onRequestPermissionsResult(PreferenceActivity.this, requestCode, permissions, grantResults);
+    RuntimePermissions.onRequestPermissionsResult(RecipientListActivity.this, requestCode, permissions, grantResults);
   }
 
   // ---------------------------------------------------------------------------------------------
@@ -113,12 +113,12 @@ public class PreferenceActivity extends Activity {
   private void showEditDialog(final int position) {
     final boolean isAdd = (position < 0);
 
-    final ListItem listItem = (isAdd)
-      ? new ListItem("", "")
+    final RecipientListItem listItem = (isAdd)
+      ? new RecipientListItem()
       : listItems.get(position)
     ;
 
-    final Dialog dialog = new Dialog(PreferenceActivity.this, R.style.app_theme);
+    final Dialog dialog = new Dialog(RecipientListActivity.this, R.style.app_theme);
     dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
     dialog.setContentView(R.layout.dialog_listitem);
 
@@ -156,7 +156,7 @@ public class PreferenceActivity extends Activity {
         final boolean same_sender    = new_sender.equals(listItem.sender);
 
         if (new_recipient.equals("") || new_sender.equals("")) {
-          Toast.makeText(PreferenceActivity.this, getResources().getString(R.string.error_missing_required_value), Toast.LENGTH_SHORT).show();
+          Toast.makeText(RecipientListActivity.this, getResources().getString(R.string.error_missing_required_value), Toast.LENGTH_SHORT).show();
           return;
         }
 
@@ -175,7 +175,7 @@ public class PreferenceActivity extends Activity {
 
         if (isAdd) {
           if (!listItems.add(listItem)) {
-            Toast.makeText(PreferenceActivity.this, getResources().getString(R.string.error_add_listitem), Toast.LENGTH_SHORT).show();
+            Toast.makeText(RecipientListActivity.this, getResources().getString(R.string.error_add_listitem), Toast.LENGTH_SHORT).show();
             return;
           }          
         }
@@ -183,7 +183,7 @@ public class PreferenceActivity extends Activity {
         listAdapter.notifyDataSetChanged();
         dialog.dismiss();
 
-        Preferences.setListItems(PreferenceActivity.this, listItems);
+        Preferences.setRecipientListItems(RecipientListActivity.this, listItems);
       }
     });
 

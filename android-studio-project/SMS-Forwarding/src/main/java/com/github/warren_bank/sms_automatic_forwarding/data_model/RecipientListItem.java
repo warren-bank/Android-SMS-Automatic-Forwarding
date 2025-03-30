@@ -4,13 +4,18 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.util.ArrayList;
 
-public final class ListItem {
+public final class RecipientListItem {
   public String recipient;
   public String sender;
 
-  public ListItem(String recipient, String sender) {
+  public RecipientListItem() {
+    this.recipient = "";
+    this.sender    = "";
+  }
+
+  public RecipientListItem(String recipient, String sender) {
     this.recipient = recipient;
-    this.sender  = sender;
+    this.sender    = sender;
   }
 
   @Override
@@ -20,21 +25,21 @@ public final class ListItem {
 
   // helpers
 
-  public static ArrayList<ListItem> fromJson(String json) {
-    ArrayList<ListItem> arrayList;
+  public static ArrayList<RecipientListItem> fromJson(String json) {
+    ArrayList<RecipientListItem> arrayList;
     Gson gson = new Gson();
-    arrayList = gson.fromJson(json, new TypeToken<ArrayList<ListItem>>(){}.getType());
+    arrayList = gson.fromJson(json, new TypeToken<ArrayList<RecipientListItem>>(){}.getType());
     return arrayList;
   }
 
-  public static String toJson(ArrayList<ListItem> arrayList) {
+  public static String toJson(ArrayList<RecipientListItem> arrayList) {
     String json = new Gson().toJson(arrayList);
     return json;
   }
 
-  public static ArrayList<String> get_matching_recipients(ArrayList<ListItem> arrayList, String sender) {
+  public static ArrayList<String> match(ArrayList<RecipientListItem> arrayList, String sender) {
     ArrayList<String> recipients = new ArrayList<String>();
-    ListItem item;
+    RecipientListItem item;
 
     for (int i=0; i < arrayList.size(); i++) {
       try {
