@@ -129,7 +129,9 @@ public class RecipientListActivity extends Activity {
     final Button buttonSave   = (Button) dialog.findViewById(R.id.button_save);
 
     inputRecipient.setText(listItem.recipient);
-    inputSender.setText(listItem.sender);
+    inputSender.setText(
+      listItem.sender.isEmpty() ? "*" : listItem.sender
+    );
 
     if (isAdd) {
       buttonDelete.setText(R.string.label_button_cancel);
@@ -149,13 +151,17 @@ public class RecipientListActivity extends Activity {
     buttonSave.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        final String new_recipient   = inputRecipient.getText().toString().trim();
-        final String new_sender      = inputSender.getText().toString().trim();
+        final String new_recipient = inputRecipient.getText().toString().trim();
+
+        String new_sender = inputSender.getText().toString().trim();
+        if (new_sender.equals("")) {
+          new_sender = "*";
+        }
 
         final boolean same_recipient = new_recipient.equals(listItem.recipient);
         final boolean same_sender    = new_sender.equals(listItem.sender);
 
-        if (new_recipient.equals("") || new_sender.equals("")) {
+        if (new_recipient.equals("")) {
           Toast.makeText(RecipientListActivity.this, getResources().getString(R.string.error_missing_required_value), Toast.LENGTH_SHORT).show();
           return;
         }
