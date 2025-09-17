@@ -23,7 +23,7 @@ android {
     archivesBaseName += "-$versionName"
   }
 
-  flavorDimensions "languageResources"
+  flavorDimensions "languageResources", "contactName"
 
   productFlavors {
     withAllLanguageTranslations {
@@ -31,6 +31,12 @@ android {
     }
     english {
       dimension "languageResources"
+    }
+    withContactName {
+      dimension "contactName"
+    }
+    noContactName {
+      dimension "contactName"
     }
   }
 

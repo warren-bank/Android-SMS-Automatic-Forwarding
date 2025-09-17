@@ -3,6 +3,7 @@ package com.github.warren_bank.sms_automatic_forwarding.ui;
 import com.github.warren_bank.sms_automatic_forwarding.R;
 import com.github.warren_bank.sms_automatic_forwarding.data_model.Preferences;
 import com.github.warren_bank.sms_automatic_forwarding.data_model.RecipientListItem;
+import com.github.warren_bank.sms_automatic_forwarding.security_model.OptionalRuntimePermissions;
 import com.github.warren_bank.sms_automatic_forwarding.security_model.RuntimePermissions;
 
 import android.app.Activity;
@@ -53,6 +54,8 @@ public class RecipientListActivity extends Activity {
     });
 
     if (RuntimePermissions.isEnabled(RecipientListActivity.this)) {
+      OptionalRuntimePermissions.requestPermissions(RecipientListActivity.this);
+
       inputEnable.setChecked(Preferences.isEnabled(RecipientListActivity.this));
       inputEnable.setEnabled(true);
       inputEnable.setClickable(true);

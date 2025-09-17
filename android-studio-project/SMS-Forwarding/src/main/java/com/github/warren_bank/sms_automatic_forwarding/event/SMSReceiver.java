@@ -1,6 +1,7 @@
 package com.github.warren_bank.sms_automatic_forwarding.event;
 
 import com.github.warren_bank.sms_automatic_forwarding.R;
+import com.github.warren_bank.sms_automatic_forwarding.data_model.Contacts;
 import com.github.warren_bank.sms_automatic_forwarding.data_model.Preferences;
 import com.github.warren_bank.sms_automatic_forwarding.data_model.RecipientListItem;
 
@@ -37,6 +38,7 @@ public class SMSReceiver extends BroadcastReceiver {
 
       String sender                = null;
       String body                  = null;
+      String sender_contact_name   = null;
       ArrayList<String> recipients = null;
 
       for (SmsMessage message : messages) {
@@ -44,13 +46,14 @@ public class SMSReceiver extends BroadcastReceiver {
           continue;
 
         try {
-          sender     = message.getOriginatingAddress().trim();
-          body       = message.getMessageBody().trim();
-          recipients = RecipientListItem.match(listItems, sender);
+          sender              = message.getOriginatingAddress().trim();
+          body                = message.getMessageBody().trim();
+          sender_contact_name = Contacts.getContactName(context, sender);
+          recipients          = RecipientListItem.match(listItems, sender);
 
           Log.i(TAG, "SMS received.\nfrom: " + sender + "\nmessage: " + body);
 
-          SMSSender.forward(recipients, sender, body);
+          SMSSender.forward(recipients, sender, sender_contact_name, body);
         }
         catch (Exception e) { continue; }
       }

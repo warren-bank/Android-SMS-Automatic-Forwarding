@@ -8,12 +8,7 @@ import java.util.ArrayList;
 public final class RuntimePermissions {
   private static final int REQUEST_CODE = 0;
 
-  public static boolean isEnabled(Activity activity) {
-    if (Build.VERSION.SDK_INT < 23)
-      return true;
-
-    final String[] permissions_all = new String[]{ "android.permission.RECEIVE_SMS", "android.permission.SEND_SMS" };
-
+  protected static String[] getMissingPermissions(Activity activity, String[] permissions_all) {
     ArrayList<String> permissions_req = new ArrayList<String>();
 
     for (String permission_name : permissions_all) {
@@ -22,13 +17,22 @@ public final class RuntimePermissions {
       }
     }
 
-    if (permissions_req.isEmpty())
+    return permissions_req.isEmpty()
+      ? null
+      : permissions_req.toArray(new String[0]);
+  }
+
+  public static boolean isEnabled(Activity activity) {
+    if (Build.VERSION.SDK_INT < 23)
       return true;
 
-    activity.requestPermissions(
-      permissions_req.toArray(new String[0]),
-      REQUEST_CODE
-    );
+    final String[] permissions_all = new String[]{ "android.permission.RECEIVE_SMS", "android.permission.SEND_SMS" };
+    final String[] permissions_req = RuntimePermissions.getMissingPermissions(activity, permissions_all);
+
+    if (permissions_req == null)
+      return true;
+
+    activity.requestPermissions(permissions_req, REQUEST_CODE);
     return false;
   }
 

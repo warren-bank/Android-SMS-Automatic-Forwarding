@@ -39,6 +39,22 @@ Android app that listens for incoming SMS text messages and conditionally forwar
 
 - - - -
 
+#### Build Flavors:
+
+* `english`
+  - includes string resources for only the English language
+* `withAllLanguageTranslations`
+  - includes string resources for 51 additional languages
+* `noContactName`
+  - "Forwarded from: &lt;sender_phone&gt;"
+* `withContactName`
+  - "Forwarded from: &lt;sender_phone&gt; &lt;sender_name&gt;"
+    * if `sender_phone` is found in the local contacts list,<br>and the contact has a name associated with it
+  - "Forwarded from: &lt;sender_phone&gt;"
+    * otherwise
+
+- - - -
+
 #### Caveats:
 
 * _Google Voice_:
