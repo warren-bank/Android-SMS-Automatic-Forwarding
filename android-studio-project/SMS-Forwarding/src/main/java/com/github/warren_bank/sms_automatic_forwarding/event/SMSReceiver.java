@@ -53,7 +53,7 @@ public class SMSReceiver extends BroadcastReceiver {
 
           Log.i(TAG, "SMS received.\nfrom: " + sender + "\nmessage: " + body);
 
-          SMSSender.forward(recipients, sender, sender_contact_name, body);
+          SMSSender.forward(context, recipients, sender, sender_contact_name, body);
         }
         catch (Exception e) { continue; }
       }

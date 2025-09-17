@@ -13,4 +13,6 @@
 
   <string name="error_missing_required_value">Error: Missing Required Value</string>
   <string name="error_add_listitem">Error: Could not add new item to list</string>
+
+  <string name="sms_preface_heading">Forwarded from:</string>
 </resources>

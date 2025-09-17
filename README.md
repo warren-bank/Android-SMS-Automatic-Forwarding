@@ -48,7 +48,7 @@ Android app that listens for incoming SMS text messages and conditionally forwar
 * `noContactName`
   - "Forwarded from: &lt;sender_phone&gt;"
 * `withContactName`
-  - "Forwarded from: &lt;sender_phone&gt; &lt;sender_name&gt;"
+  - "Forwarded from: &lt;sender_name&gt; &lt;sender_phone&gt;"
     * if `sender_phone` is found in the local contacts list,<br>and the contact has a name associated with it
   - "Forwarded from: &lt;sender_phone&gt;"
     * otherwise
