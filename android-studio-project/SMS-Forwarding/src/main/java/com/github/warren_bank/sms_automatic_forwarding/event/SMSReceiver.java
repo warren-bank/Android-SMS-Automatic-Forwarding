@@ -37,23 +37,33 @@ public class SMSReceiver extends BroadcastReceiver {
       final SmsMessage[] messages = get_SmsMessages(extras);
 
       String sender                = null;
+      ArrayList<String> recipients = null;
       String body                  = null;
       String sender_contact_name   = null;
-      ArrayList<String> recipients = null;
 
       for (SmsMessage message : messages) {
         if (message == null)
           continue;
 
         try {
-          sender              = message.getOriginatingAddress().trim();
-          body                = message.getMessageBody().trim();
-          sender_contact_name = Contacts.getContactName(context, sender);
-          recipients          = RecipientListItem.match(listItems, sender);
+          sender     = message.getOriginatingAddress().trim();
+          recipients = RecipientListItem.match(listItems, sender);
 
-          Log.i(TAG, "SMS received.\nfrom: " + sender + "\nmessage: " + body);
+          if (!recipients.isEmpty()) {
+            body = message.getMessageBody();
 
-          SMSSender.forward(context, recipients, sender, sender_contact_name, body);
+            if (body != null) {
+              body = body.trim();
+
+              if (!body.isEmpty()) {
+                Log.i(TAG, "SMS received.\nfrom: " + sender + "\nmessage: " + body);
+
+                sender_contact_name = Contacts.getContactName(context, sender);
+
+                SMSSender.forward(context, recipients, sender, sender_contact_name, body);
+              }
+            }
+          }
         }
         catch (Exception e) { continue; }
       }

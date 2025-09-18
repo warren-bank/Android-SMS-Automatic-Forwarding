@@ -9,9 +9,6 @@ import java.util.ArrayList;
 public final class SMSSender {
 
   public static void forward(Context context, ArrayList<String> recipients, String sender, String sender_contact_name, String body) {
-    if (recipients.isEmpty())
-      return;
-
     SmsManager sms = SmsManager.getDefault();
     String recipient;
 
