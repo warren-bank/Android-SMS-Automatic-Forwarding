@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS -Да.</string>
-  <string name="label_enable">Активиране на услуга</string>
-  <string name="label_recipient">Получател-получател:</string>
-  <string name="label_sender">Изпращачът трябва да завърши с:</string>
-  <string name="label_button_cancel">ОТМЯНА</string>
-  <string name="label_button_delete">DELETE</string>
+  <string name="app_name">SMS Прехвърляне</string>
+  <string name="label_enable">Включване на услугата</string>
+  <string name="label_recipient">Предаващ получател:</string>
+  <string name="label_sender">Подателят трябва да завърши с:</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">ПОЛУЧЕТЕ</string>
   <string name="label_button_save">SAVE</string>
   <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Грешка: Липсва липсващата стойност</string>
-  <string name="error_add_listitem">Грешка: Не може да се добави нов елемент в списъка</string>
+  <string name="error_missing_required_value">Грешка: Липсваща задължителна стойност</string>
+  <string name="error_add_listitem">Грешка: Грешка при добавяне на нов елемент към списъка</string>
+  <string name="sms_preface_heading">Препратени от:</string>
 </resources>

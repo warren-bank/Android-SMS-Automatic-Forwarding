@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Алдыга жылдыруу</string>
+  <string name="label_enable">Кызмат көрсөтүү</string>
+  <string name="label_recipient">Алуучуну жөнөтүү:</string>
+  <string name="label_sender">Сунуш берүүчү менен аяктоо керек:</string>
+  <string name="label_button_cancel">КАНЦЛЕР</string>
+  <string name="label_button_delete">АЧЫК-АЙКЫН</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="menu_add">КОШУМЧА КОШУМЧА</string>
+  <string name="error_missing_required_value">Ката: Керектүү баалуулуктун жоктугу</string>
+  <string name="error_add_listitem">Ката: Тизмеге жаңы пунктту кошууга болбойт</string>
+  <string name="sms_preface_heading">Алдыга карай:</string>
+</resources>

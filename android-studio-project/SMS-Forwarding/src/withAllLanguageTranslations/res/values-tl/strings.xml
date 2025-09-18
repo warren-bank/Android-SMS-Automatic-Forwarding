@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Pagsulong</string>
+  <string name="label_enable">Kaaya - ayang Paglilingkod</string>
+  <string name="label_recipient">Pagsulong sa tumanggap:</string>
+  <string name="label_sender">Dapat magwakas ang nagpadala:</string>
+  <string name="label_button_cancel">SELERO</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">KALIGAYAHAN</string>
+  <string name="menu_add">ADD</string>
+  <string name="error_missing_required_value">Error: Kulang sa Kailangang Halaga</string>
+  <string name="error_add_listitem">Error: hindi makapagdagdag ng bagong bagay sa listahan</string>
+  <string name="sms_preface_heading">Mula sa unahan:</string>
+</resources>

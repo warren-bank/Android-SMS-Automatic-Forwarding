@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Διαβίβαση:</string>
+  <string name="app_name">SMS Προώθηση</string>
   <string name="label_enable">Ενεργοποίηση υπηρεσίας</string>
-  <string name="label_recipient">Διαβίβαση παραλήπτη::</string>
-  <string name="label_sender">Ο αποστολέας πρέπει να τελειώνει.:</string>
-  <string name="label_button_cancel">ΑΚΎΡΩΣΗ.</string>
-  <string name="label_button_delete">ΔΙΑΓΡΑΦΉ:</string>
-  <string name="label_button_save">ΑΠΟΘΉΚΕΥΣΗ:</string>
-  <string name="menu_add">ΠΡΟΣΘΉΚΗ</string>
+  <string name="label_recipient">Παραλήπτης προώθησης:</string>
+  <string name="label_sender">Ο αποστολέας πρέπει να τελειώσει με:</string>
+  <string name="label_button_cancel">ΑΚΥΡΩΣΗ</string>
+  <string name="label_button_delete">ΔΕΛΕΤΗ</string>
+  <string name="label_button_save">ΣΩΛΗΝΑ</string>
+  <string name="menu_add">ADD</string>
   <string name="error_missing_required_value">Σφάλμα: Λείπει η απαιτούμενη τιμή</string>
-  <string name="error_add_listitem">Σφάλμα: Δεν ήταν δυνατή η προσθήκη νέου στοιχείου στη λίστα</string>
+  <string name="error_add_listitem">Σφάλμα: Αδυναμία προσθήκης νέου αντικειμένου στη λίστα</string>
+  <string name="sms_preface_heading">Προωθημένο από:</string>
 </resources>

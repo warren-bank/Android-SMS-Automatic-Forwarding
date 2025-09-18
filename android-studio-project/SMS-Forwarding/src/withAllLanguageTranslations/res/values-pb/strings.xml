@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Encaminhando</string>
+  <string name="label_enable">Activar o Serviço</string>
+  <string name="label_recipient">Encaminhando destinatário:</string>
+  <string name="label_sender">O remetente deve terminar com:</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="menu_add">ADD</string>
+  <string name="error_missing_required_value">Erro: Falta o valor necessário</string>
+  <string name="error_add_listitem">Erro: Não foi possível adicionar novo item à lista</string>
+  <string name="sms_preface_heading">Encaminhado de:</string>
+</resources>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">SMS Inoltro</string>
-  <string name="label_enable">Abilitare servizio</string>
-  <string name="label_recipient">Destinatario inoltro:</string>
-  <string name="label_sender">Mittente deve terminare con:</string>
-  <string name="label_button_cancel">ANNULLO</string>
+  <string name="label_enable">Servizio abilitato</string>
+  <string name="label_recipient">Inoltro del destinatario:</string>
+  <string name="label_sender">Sender deve finire con:</string>
+  <string name="label_button_cancel">CANCELLAZIONE</string>
   <string name="label_button_delete">DELETE</string>
   <string name="label_button_save">SAVE</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Errore: Valore obbligatorio mancante</string>
-  <string name="error_add_listitem">Errore: impossibile aggiungere nuovo articolo da elencare</string>
+  <string name="menu_add">ADDETTI</string>
+  <string name="error_missing_required_value">Errore: Valore richiesto mancante</string>
+  <string name="error_add_listitem">Errore: Non potrebbe aggiungere nuovo elemento all\'elenco</string>
+  <string name="sms_preface_heading">Trasferito da:</string>
 </resources>

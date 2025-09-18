@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Adiante</string>
+  <string name="label_enable">Servicioable</string>
+  <string name="label_recipient">Reenviar destinatarios:</string>
+  <string name="label_sender">Sender debe rematar con:</string>
+  <string name="label_button_cancel">ANCEL</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="menu_add">ADD</string>
+  <string name="error_missing_required_value">Erro: falta de valor</string>
+  <string name="error_add_listitem">Erro: Non se pode engadir un novo elemento á lista</string>
+  <string name="sms_preface_heading">Enviado desde:</string>
+</resources>

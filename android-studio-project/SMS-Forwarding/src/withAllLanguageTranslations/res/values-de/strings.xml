@@ -2,12 +2,13 @@
 <resources>
   <string name="app_name">SMS Weiterleitung</string>
   <string name="label_enable">Service aktivieren</string>
-  <string name="label_recipient">Weiterleitungsempfänger:</string>
-  <string name="label_sender">Absender muss mit:</string>
-  <string name="label_button_cancel">ABBRECHEN</string>
-  <string name="label_button_delete">LÖSCHEN</string>
+  <string name="label_recipient">Empfänger weitergeben:</string>
+  <string name="label_sender">Absender muss enden:</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">DELE</string>
   <string name="label_button_save">SAVE</string>
-  <string name="menu_add">HINZUFÜGEN</string>
-  <string name="error_missing_required_value">Fehler: Fehlender erforderlicher Wert</string>
-  <string name="error_add_listitem">Fehler: Neues Element konnte nicht zur Liste hinzugefügt werden</string>
+  <string name="menu_add">ADD</string>
+  <string name="error_missing_required_value">Fehler: Fehlen erforderlicher Wert</string>
+  <string name="error_add_listitem">Fehler: Konnte keine neue Liste hinzufügen</string>
+  <string name="sms_preface_heading">Vorwärts von:</string>
 </resources>

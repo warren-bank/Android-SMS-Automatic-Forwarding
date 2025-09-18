@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Aurreratzea</string>
+  <string name="label_enable">Gaitu zerbitzua</string>
+  <string name="label_recipient">Birbidalitako hartzailea:</string>
+  <string name="label_sender">Bidaltzaileak amaitu behar du:</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">DELETE</string>
+  <string name="label_button_save">SAVE</string>
+  <string name="menu_add">ADD</string>
+  <string name="error_missing_required_value">Errorea: beharrezko balioa falta da</string>
+  <string name="error_add_listitem">Errorea: ezin izan da elementu berria gehitu zerrendan</string>
+  <string name="sms_preface_heading">Aurrera:</string>
+</resources>

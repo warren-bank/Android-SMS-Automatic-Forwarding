@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Пересилання</string>
-  <string name="label_enable">Увімкнути службу</string>
-  <string name="label_recipient">Переспрямування:</string>
-  <string name="label_sender">Відправник має закінчитися:</string>
-  <string name="label_button_cancel">СКАСУВАТИ</string>
-  <string name="label_button_delete">ВИЛУЧИТИ</string>
-  <string name="label_button_save">ЗБЕРЕГТИ</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Помилка: Не задано значення, що</string>
-  <string name="error_add_listitem">Помилка: не вдалося додати новий елемент до списку</string>
+  <string name="app_name">SMS Переадресація</string>
+  <string name="label_enable">Увімкнути послугу</string>
+  <string name="label_recipient">Переадресація одержувача:</string>
+  <string name="label_sender">Відправник повинен закінчитися:</string>
+  <string name="label_button_cancel">КАНСЛ</string>
+  <string name="label_button_delete">ДЕЛЕТЕК</string>
+  <string name="label_button_save">САВИ</string>
+  <string name="menu_add">АДД</string>
+  <string name="error_missing_required_value">Помилка: Обов\'язкове значення</string>
+  <string name="error_add_listitem">Помилка: Не можна додати новий елемент до списку</string>
+  <string name="sms_preface_heading">Переадресований з:</string>
 </resources>

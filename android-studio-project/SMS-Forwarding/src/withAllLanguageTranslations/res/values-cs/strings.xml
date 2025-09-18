@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Předávání</string>
+  <string name="app_name">SMS Předání</string>
   <string name="label_enable">Povolit službu</string>
-  <string name="label_recipient">Předávající příjemce:</string>
-  <string name="label_sender">Odesílatel musí končit na:</string>
-  <string name="label_button_cancel">STORNO</string>
-  <string name="label_button_delete">ODSTRANIT</string>
-  <string name="label_button_save">ULOŽIT</string>
-  <string name="menu_add">PŘIDAT</string>
-  <string name="error_missing_required_value">Chyba: Chybí požadovaná hodnota</string>
+  <string name="label_recipient">Předání příjemce:</string>
+  <string name="label_sender">Odesílatel musí skončit:</string>
+  <string name="label_button_cancel">KANCEL</string>
+  <string name="label_button_delete">DELET</string>
+  <string name="label_button_save">BEZPEČNOST</string>
+  <string name="menu_add">ADD</string>
+  <string name="error_missing_required_value">Chyba: Chybějící požadovaná hodnota</string>
   <string name="error_add_listitem">Chyba: Nelze přidat novou položku do seznamu</string>
+  <string name="sms_preface_heading">Vypuštěno od:</string>
 </resources>

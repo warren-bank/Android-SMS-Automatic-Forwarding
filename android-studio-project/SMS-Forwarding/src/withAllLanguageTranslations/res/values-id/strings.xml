@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Penerusan</string>
+  <string name="app_name">SMS Meneruskan</string>
   <string name="label_enable">Aktifkan Layanan</string>
-  <string name="label_recipient">Forwarding penerima:</string>
+  <string name="label_recipient">Penerima Penerusan:</string>
   <string name="label_sender">Pengirim harus diakhiri dengan:</string>
-  <string name="label_button_cancel">Batalkan</string>
-  <string name="label_button_delete">HAPUS</string>
+  <string name="label_button_cancel">CANCEL</string>
+  <string name="label_button_delete">DELETE</string>
   <string name="label_button_save">SAVE</string>
   <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Kesalahan: Kehilangan Nilai yang Diperlukan</string>
-  <string name="error_add_listitem">Kesalahan: Tidak dapat menambahkan item baru ke daftar</string>
+  <string name="error_missing_required_value">Galat: Nilai yang Diperlukan Hilang</string>
+  <string name="error_add_listitem">Galat: Tak bisa menambah butir baru ke daftar</string>
+  <string name="sms_preface_heading">Dicegah dari:</string>
 </resources>
