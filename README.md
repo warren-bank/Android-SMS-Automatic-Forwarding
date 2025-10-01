@@ -44,19 +44,20 @@ Android app that listens for incoming SMS text messages and conditionally forwar
   - example:
     * `8001190000,8002290000,8003390000`
 * `Sender must end with` field:
-  - supports: `<whitelist>!<blacklist>`
+  - supports: `<whitelist><list-separator><blacklist>`
   - where:
     * both `<whitelist>` and `<blacklist>` are a comma-separated list of values
     * `<whitelist>` is required
     * `<blacklist>` is optional
-    * the character `!` denotes the start of `<blacklist>`
+    * `<list-separator>` is a single character that denotes the start of `<blacklist>`
+      - any of the following characters are allowed: `!/#`
   - special case:
     * `<whitelist>` is `*`<br>&hellip;all other values in its comma-separated list are ignored
   - examples:
     * `8001190000,8002290000,8003390000`
-    * `*!8001190000,8002290000,8003390000`
-    * `0000!8001190000,8002290000,8003390000`
-    * `0000!90000`
+    * `*/8001190000,8002290000,8003390000`
+    * `0000/8001190000,8002290000,8003390000`
+    * `0000/90000`
 
 - - - -
 

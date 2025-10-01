@@ -107,9 +107,13 @@ public final class RecipientListItem {
     }
 
     private static String[] splitCSV(String list, char delimiter) {
+      return splitCSV(list, String.valueOf(delimiter));
+    }
+
+    private static String[] splitCSV(String list, String delimiter) {
       if (list == null) return null;
 
-      String regex = "\\s*" + String.valueOf(delimiter) + "\\s*";
+      String regex = "\\s*" + delimiter + "\\s*";
       return list.trim().split(regex);
     }
 
@@ -123,7 +127,7 @@ public final class RecipientListItem {
     }
 
     private void parseSender(String sender) {
-      String[] parts = splitCSV(sender, '!');
+      String[] parts = splitCSV(sender, "[!/#]");
 
       if (parts == null)
         return;
