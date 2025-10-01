@@ -117,9 +117,35 @@ public final class RecipientListItem {
       return list.trim().split(regex);
     }
 
+    private static void sanitizeInput(String[] input, boolean allowGlobPattern) {
+      if ((input == null) || (input.length == 0)) return;
+
+      if (allowGlobPattern && (input.length == 1) && ("*".equals(input[0]))) return;
+
+      for (int i=0; i < input.length; i++) {
+        input[i] = sanitizeInput(input[i]);
+      }
+    }
+
+    private static String sanitizeInput(String input) {
+      if ((input == null) || input.isEmpty()) return "";
+
+      String prefix = (input.charAt(0) == '+')
+        ? "+"
+        : "";
+
+      String numeric = input.replaceAll("[^0-9]", "");
+
+      return prefix + numeric;
+    }
+
     public RecipientListItemCriteria(RecipientListItem item) {
       parseRecipient(item.recipient);
       parseSender(item.sender);
+
+      sanitizeInput(this.recipients,       false);
+      sanitizeInput(this.sender_whitelist, true);
+      sanitizeInput(this.sender_blacklist, false);
     }
 
     private void parseRecipient(String recipient) {
