@@ -1,0 +1,1 @@
+<p><i>SMS Forwarding</i> listens for incoming SMS text messages and conditionally forwards them to other numbers.</p>
