@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Se transmite</string>
-  <string name="label_enable">Activează serviciul</string>
-  <string name="label_recipient">Destinatar de expediere:</string>
-  <string name="label_sender">Sender trebuie să se termine cu:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">SALVARE</string>
+  <string name="app_name">SMS Redirecționare</string>
+  <string name="label_enable">Activați serviciul</string>
+  <string name="label_recipient">Destinatarul redirecționării:</string>
+  <string name="label_sender">Expeditorul trebuie să se termine cu:</string>
+  <string name="label_button_cancel">ANULARE</string>
+  <string name="label_button_delete">ȘTERGE</string>
+  <string name="label_button_save">SALVEAZĂ</string>
   <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Eroare: Lipsește valoarea necesară</string>
-  <string name="error_add_listitem">Eroare: Nu s-a putut adăuga un nou element în listă</string>
-  <string name="sms_preface_heading">De la:</string>
+  <string name="menu_settings">Setări</string>
+  <string name="error_missing_required_value">Eroare: Valoare obligatorie lipsă</string>
+  <string name="error_add_listitem">Eroare: Nu s-a putut adăuga un element nou la listă</string>
+  <string name="sms_sender_heading">Redirecționat de la:</string>
+  <string name="pref_template_title">SMS Șablon</string>
+  <string name="pref_template_summary">Alegeți aspectul mesajului redirecționat</string>
+  <string name="pref_template_name_prefix">Afișează expeditorul în partea de sus</string>
+  <string name="pref_template_name_suffix">Afișează expeditorul la sfârșit</string>
 </resources>

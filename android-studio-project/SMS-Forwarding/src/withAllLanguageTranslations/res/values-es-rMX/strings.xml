@@ -10,10 +10,10 @@
   <string name="menu_add">AÑADIR</string>
   <string name="menu_settings">Configuración</string>
   <string name="error_missing_required_value">Error: Falta el valor requerido</string>
-  <string name="error_add_listitem">Error: No se pudo añadir un nuevo elemento a la lista.</string>
+  <string name="error_add_listitem">Error: No se pudo agregar un nuevo elemento a la lista.</string>
   <string name="sms_sender_heading">Reenviado desde:</string>
   <string name="pref_template_title">SMS Plantilla</string>
-  <string name="pref_template_summary">Elija el diseño del mensaje reenviado</string>
+  <string name="pref_template_summary">Elegir diseño del mensaje reenviado</string>
   <string name="pref_template_name_prefix">Mostrar remitente en la parte superior</string>
   <string name="pref_template_name_suffix">Mostrar remitente al final</string>
 </resources>

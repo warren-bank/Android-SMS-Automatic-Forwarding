@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Framåt</string>
-  <string name="label_enable">Aktivera service</string>
-  <string name="label_recipient">Framåt mottagare:</string>
-  <string name="label_sender">Sender måste sluta med:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELETE</string>
+  <string name="app_name">SMS Vidarebefordran</string>
+  <string name="label_enable">Aktivera tjänst</string>
+  <string name="label_recipient">Vidarebefordran mottagare:</string>
+  <string name="label_sender">Avsändaren måste sluta med:</string>
+  <string name="label_button_cancel">AVBRYT</string>
+  <string name="label_button_delete">RADERA</string>
   <string name="label_button_save">SPARA</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Fel: Missing krävs värde</string>
-  <string name="error_add_listitem">Fel: Kunde inte lägga till nytt objekt i listan</string>
-  <string name="sms_preface_heading">Framåt från:</string>
+  <string name="menu_add">LÄGG TILL</string>
+  <string name="menu_settings">Inställningar</string>
+  <string name="error_missing_required_value">Fel: Saknat obligatoriskt värde</string>
+  <string name="error_add_listitem">Fel: Det gick inte att lägga till ett nytt objekt i listan.</string>
+  <string name="sms_sender_heading">Vidarebefordrad från:</string>
+  <string name="pref_template_title">SMS Mall</string>
+  <string name="pref_template_summary">Välj layout för vidarebefordrat meddelande</string>
+  <string name="pref_template_name_prefix">Visa avsändare högst upp</string>
+  <string name="pref_template_name_suffix">Visa avsändare i slutet</string>
 </resources>

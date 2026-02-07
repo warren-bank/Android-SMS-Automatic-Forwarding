@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">SMS Weiterleitung</string>
-  <string name="label_enable">Service aktivieren</string>
-  <string name="label_recipient">Empfänger weitergeben:</string>
-  <string name="label_sender">Absender muss enden:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELE</string>
-  <string name="label_button_save">SAVE</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Fehler: Fehlen erforderlicher Wert</string>
-  <string name="error_add_listitem">Fehler: Konnte keine neue Liste hinzufügen</string>
-  <string name="sms_preface_heading">Vorwärts von:</string>
+  <string name="label_enable">Dienst aktivieren</string>
+  <string name="label_recipient">Weiterleitungsempfänger:</string>
+  <string name="label_sender">Der Absender muss mit:</string>
+  <string name="label_button_cancel">ABBRECHEN</string>
+  <string name="label_button_delete">LÖSCHEN</string>
+  <string name="label_button_save">SPEICHERN</string>
+  <string name="menu_add">HINZUFÜGEN</string>
+  <string name="menu_settings">Einstellungen</string>
+  <string name="error_missing_required_value">Fehler: Erforderlicher Wert fehlt</string>
+  <string name="error_add_listitem">Fehler: Neues Element konnte nicht zur Liste hinzugefügt werden</string>
+  <string name="sms_sender_heading">Weitergeleitet von:</string>
+  <string name="pref_template_title">SMS Vorlage</string>
+  <string name="pref_template_summary">Layout der weitergeleiteten Nachricht auswählen</string>
+  <string name="pref_template_name_prefix">Absender oben anzeigen</string>
+  <string name="pref_template_name_suffix">Absender am Ende anzeigen</string>
 </resources>

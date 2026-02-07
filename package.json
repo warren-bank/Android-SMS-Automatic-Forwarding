@@ -3,10 +3,10 @@
   "private": true,
   "license": "GPL-2.0",
   "devDependencies": {
-    "@warren-bank/translate-android-strings": "^2.0.0"
+    "@warren-bank/translate-android-strings": "^3.0.1"
   },
   "scripts": {
-    "translate":       "translate-android-strings -i \"en\" -f \"android-studio-project/SMS-Forwarding/src/main/res/values/strings.xml\" -d \"android-studio-project/SMS-Forwarding/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"SMS\"",
+    "translate":       "translate-android-strings -s \"deepl\" -i \"en\" -f \"android-studio-project/SMS-Forwarding/src/main/res/values/strings.xml\" -d \"android-studio-project/SMS-Forwarding/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"SMS\"",
     "translate:debug": "npm run translate -- -o \"en\" --debug"
   }
 }

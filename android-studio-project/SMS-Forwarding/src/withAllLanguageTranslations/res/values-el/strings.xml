@@ -2,13 +2,18 @@
 <resources>
   <string name="app_name">SMS Προώθηση</string>
   <string name="label_enable">Ενεργοποίηση υπηρεσίας</string>
-  <string name="label_recipient">Παραλήπτης προώθησης:</string>
-  <string name="label_sender">Ο αποστολέας πρέπει να τελειώσει με:</string>
+  <string name="label_recipient">Προώθηση παραλήπτη:</string>
+  <string name="label_sender">Ο αποστολέας πρέπει να τελειώνει με:</string>
   <string name="label_button_cancel">ΑΚΥΡΩΣΗ</string>
-  <string name="label_button_delete">ΔΕΛΕΤΗ</string>
-  <string name="label_button_save">ΣΩΛΗΝΑ</string>
+  <string name="label_button_delete">ΔΙΑΓΡΑΦΗ</string>
+  <string name="label_button_save">ΑΠΟΘΗΚΕΥΣΗ</string>
   <string name="menu_add">ADD</string>
+  <string name="menu_settings">Ρυθμίσεις</string>
   <string name="error_missing_required_value">Σφάλμα: Λείπει η απαιτούμενη τιμή</string>
-  <string name="error_add_listitem">Σφάλμα: Αδυναμία προσθήκης νέου αντικειμένου στη λίστα</string>
-  <string name="sms_preface_heading">Προωθημένο από:</string>
+  <string name="error_add_listitem">Σφάλμα: Δεν ήταν δυνατή η προσθήκη νέου στοιχείου στη λίστα</string>
+  <string name="sms_sender_heading">Προωθήθηκε από:</string>
+  <string name="pref_template_title">SMS Πρότυπο</string>
+  <string name="pref_template_summary">Επιλέξτε τη διάταξη του προωθημένου μηνύματος</string>
+  <string name="pref_template_name_prefix">Εμφάνιση αποστολέα στην κορυφή</string>
+  <string name="pref_template_name_suffix">Εμφάνιση αποστολέα στο τέλος</string>
 </resources>

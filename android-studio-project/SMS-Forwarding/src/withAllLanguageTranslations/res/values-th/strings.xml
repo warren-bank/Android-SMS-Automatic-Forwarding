@@ -2,13 +2,18 @@
 <resources>
   <string name="app_name">SMS ส่งต่อ</string>
   <string name="label_enable">เปิดใช้งานบริการ</string>
-  <string name="label_recipient">กําลังส่งต่อผู้รับ:</string>
-  <string name="label_sender">ผู้ส่งต้องสิ้นสุดด้วย:</string>
-  <string name="label_button_cancel">ซิงเกิล</string>
-  <string name="label_button_delete">เดเลต</string>
-  <string name="label_button_save">ป้องกัน</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">ผิดพลาด: ค่าที่ไม่ต้องการ</string>
-  <string name="error_add_listitem">ผิดพลาด: ไม่สามารถเพิ่มรายการใหม่ไปยังรายการได้</string>
-  <string name="sms_preface_heading">ส่งต่อจาก:</string>
+  <string name="label_recipient">ผู้รับต่อ:</string>
+  <string name="label_sender">ผู้ส่งต้องลงท้ายด้วย:</string>
+  <string name="label_button_cancel">ยกเลิก</string>
+  <string name="label_button_delete">ลบ</string>
+  <string name="label_button_save">บันทึก</string>
+  <string name="menu_add">เพิ่ม</string>
+  <string name="menu_settings">การตั้งค่า</string>
+  <string name="error_missing_required_value">ข้อผิดพลาด: ไม่มีค่าที่จำเป็น</string>
+  <string name="error_add_listitem">ข้อผิดพลาด: ไม่สามารถเพิ่มรายการใหม่ในรายการได้</string>
+  <string name="sms_sender_heading">ส่งต่อจาก:</string>
+  <string name="pref_template_title">SMS แม่แบบ</string>
+  <string name="pref_template_summary">เลือกเค้าโครงของข้อความที่ถูกส่งต่อ</string>
+  <string name="pref_template_name_prefix">แสดงผู้ส่งที่ด้านบน</string>
+  <string name="pref_template_name_suffix">แสดงผู้ส่งที่ท้ายสุด</string>
 </resources>

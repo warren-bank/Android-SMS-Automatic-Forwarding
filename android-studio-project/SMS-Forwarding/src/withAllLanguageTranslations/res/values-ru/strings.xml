@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Вперед</string>
-  <string name="label_enable">Включить сервис</string>
-  <string name="label_recipient">Направляющий получатель:</string>
-  <string name="label_sender">Отправитель должен закончить:</string>
-  <string name="label_button_cancel">КАНЦЕЛЯРИЯ</string>
+  <string name="app_name">SMS Пересылка</string>
+  <string name="label_enable">Включить службу</string>
+  <string name="label_recipient">Получатель пересылки:</string>
+  <string name="label_sender">Отправитель должен заканчиваться на:</string>
+  <string name="label_button_cancel">ОТМЕНА</string>
   <string name="label_button_delete">УДАЛИТЬ</string>
-  <string name="label_button_save">СПАСАТЬ</string>
-  <string name="menu_add">СДВГ</string>
-  <string name="error_missing_required_value">Ошибка: недостающая ценность</string>
-  <string name="error_add_listitem">Ошибка: нельзя добавлять новый элемент в список</string>
-  <string name="sms_preface_heading">Перенесенный из:</string>
+  <string name="label_button_save">СОХРАНИТЬ</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_settings">Настройки</string>
+  <string name="error_missing_required_value">Ошибка: отсутствует необходимое значение</string>
+  <string name="error_add_listitem">Ошибка: Не удалось добавить новый элемент в список</string>
+  <string name="sms_sender_heading">Переслано от:</string>
+  <string name="pref_template_title">SMS Шаблон</string>
+  <string name="pref_template_summary">Выбрать макет пересылаемого сообщения</string>
+  <string name="pref_template_name_prefix">Показать отправителя вверху</string>
+  <string name="pref_template_name_suffix">Показать отправителя в конце</string>
 </resources>

@@ -2,13 +2,18 @@
 <resources>
   <string name="app_name">SMS Edastamine</string>
   <string name="label_enable">Teenuse lubamine</string>
-  <string name="label_recipient">Saaja edastamine:</string>
-  <string name="label_sender">Saatja peab lõpetama:</string>
-  <string name="label_button_cancel">TÜHISTADA</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">PÄÄSTA</string>
+  <string name="label_recipient">Edastamise saaja:</string>
+  <string name="label_sender">Saatja peab lõppema:</string>
+  <string name="label_button_cancel">Tühista</string>
+  <string name="label_button_delete">KUSTUTA</string>
+  <string name="label_button_save">SALVESTA</string>
   <string name="menu_add">LISA</string>
+  <string name="menu_settings">Seaded</string>
   <string name="error_missing_required_value">Viga: puudub nõutav väärtus</string>
-  <string name="error_add_listitem">Viga: uue elemendi lisamine nimekirja nurjus</string>
-  <string name="sms_preface_heading">Edastatud:</string>
+  <string name="error_add_listitem">Viga: ei õnnestunud lisada uut elementi nimekirja</string>
+  <string name="sms_sender_heading">Edastatud:</string>
+  <string name="pref_template_title">SMS Mall</string>
+  <string name="pref_template_summary">Valige edastatava sõnumi paigutus</string>
+  <string name="pref_template_name_prefix">Näita saatja ülaosas</string>
+  <string name="pref_template_name_suffix">Näita saatja lõpus</string>
 </resources>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Прехвърляне</string>
-  <string name="label_enable">Включване на услугата</string>
-  <string name="label_recipient">Предаващ получател:</string>
-  <string name="label_sender">Подателят трябва да завърши с:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">ПОЛУЧЕТЕ</string>
-  <string name="label_button_save">SAVE</string>
-  <string name="menu_add">ADD</string>
+  <string name="app_name">SMS Препращане</string>
+  <string name="label_enable">Активиране на услугата</string>
+  <string name="label_recipient">Препращане на получател:</string>
+  <string name="label_sender">Изпращачът трябва да завършва с:</string>
+  <string name="label_button_cancel">ОТМЕНИ</string>
+  <string name="label_button_delete">ИЗТРИЙ</string>
+  <string name="label_button_save">ЗАПАЗИ</string>
+  <string name="menu_add">ДОБАВИ</string>
+  <string name="menu_settings">Настройки</string>
   <string name="error_missing_required_value">Грешка: Липсваща задължителна стойност</string>
-  <string name="error_add_listitem">Грешка: Грешка при добавяне на нов елемент към списъка</string>
-  <string name="sms_preface_heading">Препратени от:</string>
+  <string name="error_add_listitem">Грешка: Не може да се добави нов елемент към списъка</string>
+  <string name="sms_sender_heading">Препратено от:</string>
+  <string name="pref_template_title">SMS Шаблон</string>
+  <string name="pref_template_summary">Изберете оформление на препратеното съобщение</string>
+  <string name="pref_template_name_prefix">Покажи изпращача в горната част</string>
+  <string name="pref_template_name_suffix">Покажи изпращача в края</string>
 </resources>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS フォワーディング</string>
+  <string name="app_name">SMS 転送</string>
   <string name="label_enable">サービスを有効にする</string>
-  <string name="label_recipient">転送受信者:</string>
-  <string name="label_sender">Sender は終了しなければなりません:</string>
-  <string name="label_button_cancel">ログイン</string>
-  <string name="label_button_delete">ディレテ</string>
-  <string name="label_button_save">スエイブ</string>
-  <string name="menu_add">追加情報</string>
-  <string name="error_missing_required_value">エラー: 必須値の欠如</string>
-  <string name="error_add_listitem">エラー:リストに新しい項目を追加できません</string>
-  <string name="sms_preface_heading">から転送:</string>
+  <string name="label_recipient">転送先:</string>
+  <string name="label_sender">送信者は必ずで終わる必要があります:</string>
+  <string name="label_button_cancel">キャンセル</string>
+  <string name="label_button_delete">削除</string>
+  <string name="label_button_save">保存</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_settings">設定</string>
+  <string name="error_missing_required_value">エラー: 必須値が不足しています</string>
+  <string name="error_add_listitem">エラー: リストに新しい項目を追加できませんでした</string>
+  <string name="sms_sender_heading">転送元:</string>
+  <string name="pref_template_title">SMS テンプレート</string>
+  <string name="pref_template_summary">転送メッセージのレイアウトを選択</string>
+  <string name="pref_template_name_prefix">送信者を上部に表示</string>
+  <string name="pref_template_name_suffix">送信者を末尾に表示</string>
 </resources>

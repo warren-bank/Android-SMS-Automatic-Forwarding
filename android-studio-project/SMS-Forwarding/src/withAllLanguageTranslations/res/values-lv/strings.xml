@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">SMS Pārsūtīšana</string>
-  <string name="label_enable">Ieslēgt servisu</string>
-  <string name="label_recipient">Saņēmēja pārsūtīšana:</string>
+  <string name="label_enable">Iespējot pakalpojumu</string>
+  <string name="label_recipient">Pārsūtīšanas saņēmējs:</string>
   <string name="label_sender">Sūtītājam jābeidzas ar:</string>
-  <string name="label_button_cancel">CANEL</string>
+  <string name="label_button_cancel">ATCELT</string>
   <string name="label_button_delete">DELETE</string>
   <string name="label_button_save">SAVE</string>
   <string name="menu_add">PIEVIENOT</string>
-  <string name="error_missing_required_value">Kļūda: Trūkst vajadzīgās vērtības</string>
-  <string name="error_add_listitem">Kļūda: Nevar pievienot jaunu ierakstu sarakstam</string>
-  <string name="sms_preface_heading">Pārsūtīts no:</string>
+  <string name="menu_settings">Iestatījumi</string>
+  <string name="error_missing_required_value">Kļūda: trūkst nepieciešamā vērtība</string>
+  <string name="error_add_listitem">Kļūda: nevar pievienot jaunu elementu sarakstam</string>
+  <string name="sms_sender_heading">Pārsūtīts no:</string>
+  <string name="pref_template_title">SMS Veidne</string>
+  <string name="pref_template_summary">Izvēlieties pārsūtītās ziņas izkārtojumu</string>
+  <string name="pref_template_name_prefix">Rādīt sūtītāju augšā</string>
+  <string name="pref_template_name_suffix">Rādīt sūtītāju beigās</string>
 </resources>

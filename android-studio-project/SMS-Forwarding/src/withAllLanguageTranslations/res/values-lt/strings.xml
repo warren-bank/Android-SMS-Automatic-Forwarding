@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Perdavimas</string>
+  <string name="app_name">SMS Persiuntimas</string>
   <string name="label_enable">Įjungti paslaugą</string>
-  <string name="label_recipient">Siunčiamas gavėjas:</string>
-  <string name="label_sender">Siuntėjas turi baigti:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">CONSTELLATION NAME (OPTIONAL)</string>
+  <string name="label_recipient">Persiuntimo gavėjas:</string>
+  <string name="label_sender">Siuntėjas turi baigtis:</string>
+  <string name="label_button_cancel">ATŠAUKTI</string>
+  <string name="label_button_delete">TRINTI</string>
   <string name="label_button_save">SAVE</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Klaida: trūksta reikalaujamos vertės</string>
-  <string name="error_add_listitem">Klaida: į sąrašą nepavyko įtraukti naujo elemento</string>
-  <string name="sms_preface_heading">Iš:</string>
+  <string name="menu_add">Pridėti</string>
+  <string name="menu_settings">Nustatymai</string>
+  <string name="error_missing_required_value">Klaida: trūksta privalomos reikšmės</string>
+  <string name="error_add_listitem">Klaida: Nepavyko pridėti naujo elemento į sąrašą</string>
+  <string name="sms_sender_heading">Persiųsta iš:</string>
+  <string name="pref_template_title">SMS Šablonas</string>
+  <string name="pref_template_summary">Pasirinkite persiųsto pranešimo išdėstymą</string>
+  <string name="pref_template_name_prefix">Rodyti siuntėją viršuje</string>
+  <string name="pref_template_name_suffix">Rodyti siuntėją pabaigoje</string>
 </resources>

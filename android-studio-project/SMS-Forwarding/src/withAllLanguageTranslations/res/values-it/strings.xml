@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">SMS Inoltro</string>
-  <string name="label_enable">Servizio abilitato</string>
-  <string name="label_recipient">Inoltro del destinatario:</string>
-  <string name="label_sender">Sender deve finire con:</string>
-  <string name="label_button_cancel">CANCELLAZIONE</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">SAVE</string>
-  <string name="menu_add">ADDETTI</string>
-  <string name="error_missing_required_value">Errore: Valore richiesto mancante</string>
-  <string name="error_add_listitem">Errore: Non potrebbe aggiungere nuovo elemento all\'elenco</string>
-  <string name="sms_preface_heading">Trasferito da:</string>
+  <string name="label_enable">Abilita servizio</string>
+  <string name="label_recipient">Destinatario dell\'inoltro:</string>
+  <string name="label_sender">Il mittente deve terminare con:</string>
+  <string name="label_button_cancel">ANNULLA</string>
+  <string name="label_button_delete">ELIMINA</string>
+  <string name="label_button_save">SALVA</string>
+  <string name="menu_add">AGGIUNGERE</string>
+  <string name="menu_settings">Impostazioni</string>
+  <string name="error_missing_required_value">Errore: valore richiesto mancante</string>
+  <string name="error_add_listitem">Errore: impossibile aggiungere un nuovo elemento all\'elenco</string>
+  <string name="sms_sender_heading">Inoltrato da:</string>
+  <string name="pref_template_title">SMS Modello</string>
+  <string name="pref_template_summary">Scegli il layout del messaggio inoltrato</string>
+  <string name="pref_template_name_prefix">Mostra mittente in alto</string>
+  <string name="pref_template_name_suffix">Mostra mittente alla fine</string>
 </resources>

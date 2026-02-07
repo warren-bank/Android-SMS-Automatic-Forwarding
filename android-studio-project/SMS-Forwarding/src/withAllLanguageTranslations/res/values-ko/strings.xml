@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS 회사연혁</string>
-  <string name="label_enable">회사 소개</string>
-  <string name="label_recipient">고객 지원:</string>
-  <string name="label_sender">Sender는 끝이어야 합니다:</string>
-  <string name="label_button_cancel">CANCEL 소개</string>
-  <string name="label_button_delete">계정 만들기</string>
-  <string name="label_button_save">제품 정보</string>
-  <string name="menu_add">사이트맵</string>
-  <string name="error_missing_required_value">오류: 필수 값</string>
-  <string name="error_add_listitem">오류 : 목록에 새 항목을 추가 할 수 없습니다</string>
-  <string name="sms_preface_heading">거래 시작:</string>
+  <string name="app_name">SMS 전달</string>
+  <string name="label_enable">서비스 활성화</string>
+  <string name="label_recipient">전달 수신자:</string>
+  <string name="label_sender">발신자는 반드시 ~로 끝나야 합니다:</string>
+  <string name="label_button_cancel">취소</string>
+  <string name="label_button_delete">삭제</string>
+  <string name="label_button_save">저장</string>
+  <string name="menu_add">ADD</string>
+  <string name="menu_settings">설정</string>
+  <string name="error_missing_required_value">오류: 필수 값이 누락되었습니다.</string>
+  <string name="error_add_listitem">오류: 새 항목을 목록에 추가할 수 없습니다.</string>
+  <string name="sms_sender_heading">전달됨:</string>
+  <string name="pref_template_title">SMS 템플릿</string>
+  <string name="pref_template_summary">전달된 메시지의 레이아웃 선택</string>
+  <string name="pref_template_name_prefix">상단에 발신자 표시</string>
+  <string name="pref_template_name_suffix">보낸 사람 표시</string>
 </resources>

@@ -2,13 +2,18 @@
 <resources>
   <string name="app_name">SMS Posredovanje</string>
   <string name="label_enable">Omogoči storitev</string>
-  <string name="label_recipient">Pošiljanje prejemnika:</string>
-  <string name="label_sender">Pošiljatelj mora končati s:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">REŠEVANJE</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Napaka: manjka zahtevana vrednost</string>
-  <string name="error_add_listitem">Napaka: Ni moč dodati novega predmeta na seznam</string>
-  <string name="sms_preface_heading">Posredovano iz:</string>
+  <string name="label_recipient">Prejemnik pošiljke:</string>
+  <string name="label_sender">Pošiljatelj mora končati z:</string>
+  <string name="label_button_cancel">PREKLICI</string>
+  <string name="label_button_delete">IZBRISI</string>
+  <string name="label_button_save">SHRANI</string>
+  <string name="menu_add">DODATI</string>
+  <string name="menu_settings">Nastavitve</string>
+  <string name="error_missing_required_value">Napaka: Manjka zahtevana vrednost</string>
+  <string name="error_add_listitem">Napaka: novega elementa ni mogoče dodati na seznam</string>
+  <string name="sms_sender_heading">Posredovano iz:</string>
+  <string name="pref_template_title">SMS Predloga</string>
+  <string name="pref_template_summary">Izberite postavitev posredovanega sporočila</string>
+  <string name="pref_template_name_prefix">Prikaži pošiljatelja na vrhu</string>
+  <string name="pref_template_name_suffix">Prikaži pošiljatelja na koncu</string>
 </resources>

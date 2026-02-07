@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Forwarding</string>
+  <string name="app_name">SMS Videresending</string>
   <string name="label_enable">Aktiver tjeneste</string>
-  <string name="label_recipient">Sender mottaker:</string>
-  <string name="label_sender">Sender må slutte med:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">SAVE</string>
+  <string name="label_recipient">Videresendingsmottaker:</string>
+  <string name="label_sender">Avsender må avsluttes med:</string>
+  <string name="label_button_cancel">AVBESTILL</string>
+  <string name="label_button_delete">SLETT</string>
+  <string name="label_button_save">LAGRE</string>
   <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Feil: mangler nødvendig verdi</string>
+  <string name="menu_settings">Innstillinger</string>
+  <string name="error_missing_required_value">Feil: Manglende obligatorisk verdi</string>
   <string name="error_add_listitem">Feil: Kunne ikke legge til nytt element i listen</string>
-  <string name="sms_preface_heading">Forward fra:</string>
+  <string name="sms_sender_heading">Videresendt fra:</string>
+  <string name="pref_template_title">SMS Mal</string>
+  <string name="pref_template_summary">Velg layout for videresendt melding</string>
+  <string name="pref_template_name_prefix">Vis avsender øverst</string>
+  <string name="pref_template_name_suffix">Vis avsender på slutten</string>
 </resources>

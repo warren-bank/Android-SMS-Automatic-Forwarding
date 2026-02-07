@@ -2,13 +2,18 @@
 <resources>
   <string name="app_name">SMS Továbbítás</string>
   <string name="label_enable">Szolgáltatás engedélyezése</string>
-  <string name="label_recipient">A kedvezményezett továbbítása:</string>
-  <string name="label_sender">A feladónak:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">SAVE</string>
+  <string name="label_recipient">Címzett továbbítása:</string>
+  <string name="label_sender">A feladó címének a következővel kell végződnie::</string>
+  <string name="label_button_cancel">MEGSZŰNTETÉS</string>
+  <string name="label_button_delete">TÖRLÉS</string>
+  <string name="label_button_save">MENTÉS</string>
   <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Hiba: hiányzó szükséges érték</string>
-  <string name="error_add_listitem">Hiba: nem sikerült új elemet felvenni a listába</string>
-  <string name="sms_preface_heading">Származási hely:</string>
+  <string name="menu_settings">Beállítások</string>
+  <string name="error_missing_required_value">Hiba: Hiányzó kötelező érték</string>
+  <string name="error_add_listitem">Hiba: Nem lehetett új elemet hozzáadni a listához</string>
+  <string name="sms_sender_heading">Továbbítva:</string>
+  <string name="pref_template_title">SMS Sablon</string>
+  <string name="pref_template_summary">Válassza ki az átirányított üzenet elrendezését</string>
+  <string name="pref_template_name_prefix">A feladó megjelenítése a tetején</string>
+  <string name="pref_template_name_suffix">A feladó megjelenítése a végén</string>
 </resources>

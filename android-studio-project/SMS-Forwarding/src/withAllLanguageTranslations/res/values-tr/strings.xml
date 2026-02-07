@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Forwarding</string>
-  <string name="label_enable">Enable Servis</string>
-  <string name="label_recipient">Forwarding alıcı:</string>
-  <string name="label_sender">Sender ile bitmelidir:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">SAVE</string>
+  <string name="app_name">SMS İletme</string>
+  <string name="label_enable">Hizmeti Etkinleştir</string>
+  <string name="label_recipient">İleriye yönlendirme alıcısı:</string>
+  <string name="label_sender">Gönderen, şu şekilde bitmelidir::</string>
+  <string name="label_button_cancel">İPTAL ET</string>
+  <string name="label_button_delete">SİL</string>
+  <string name="label_button_save">KAYDET</string>
   <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Hata: Eksik Gerekli Değer</string>
-  <string name="error_add_listitem">Hata: Listeye yeni öğe ekleyebilir</string>
-  <string name="sms_preface_heading">İleriden:</string>
+  <string name="menu_settings">Ayarlar</string>
+  <string name="error_missing_required_value">Hata: Gerekli Değer Eksik</string>
+  <string name="error_add_listitem">Hata: Listeye yeni öğe eklenemedi</string>
+  <string name="sms_sender_heading">İletilen:</string>
+  <string name="pref_template_title">SMS Şablon</string>
+  <string name="pref_template_summary">Yönlendirilen mesajın düzenini seçin</string>
+  <string name="pref_template_name_prefix">Göndereni en üstte göster</string>
+  <string name="pref_template_name_suffix">Sonunda göndereni göster</string>
 </resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SMS Encaminhamento</string>
+  <string name="label_enable">Ativar serviço</string>
+  <string name="label_recipient">Destinatário do reencaminhamento:</string>
+  <string name="label_sender">O remetente deve terminar com:</string>
+  <string name="label_button_cancel">CANCELAR</string>
+  <string name="label_button_delete">ELIMINAR</string>
+  <string name="label_button_save">SALVAR</string>
+  <string name="menu_add">ADICIONAR</string>
+  <string name="menu_settings">Configurações</string>
+  <string name="error_missing_required_value">Erro: Valor obrigatório em falta</string>
+  <string name="error_add_listitem">Erro: Não foi possível adicionar um novo item à lista</string>
+  <string name="sms_sender_heading">Encaminhado de:</string>
+  <string name="pref_template_title">SMS Modelo</string>
+  <string name="pref_template_summary">Escolha o layout da mensagem reencaminhada</string>
+  <string name="pref_template_name_prefix">Mostrar remetente no topo</string>
+  <string name="pref_template_name_suffix">Mostrar remetente no final</string>
+</resources>

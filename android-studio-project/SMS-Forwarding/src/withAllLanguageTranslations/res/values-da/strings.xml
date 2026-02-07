@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">SMS Fremsendelse</string>
-  <string name="label_enable">Aktivér tjeneste</string>
-  <string name="label_recipient">Fremsendelse af modtager:</string>
-  <string name="label_sender">Afsenderen skal slutte med:</string>
-  <string name="label_button_cancel">CANCEL</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">SAVE</string>
+  <string name="app_name">SMS Videresendelse</string>
+  <string name="label_enable">Aktivér service</string>
+  <string name="label_recipient">Videresendelse til modtager:</string>
+  <string name="label_sender">Afsender skal slutte med:</string>
+  <string name="label_button_cancel">ANNULLER</string>
+  <string name="label_button_delete">SLET</string>
+  <string name="label_button_save">GEM</string>
   <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Fejl: Manglende krævet værdi</string>
-  <string name="error_add_listitem">Fejl: Kunne ikke tilføje nyt punkt til listen</string>
-  <string name="sms_preface_heading">Fremsendt fra:</string>
+  <string name="menu_settings">Indstillinger</string>
+  <string name="error_missing_required_value">Fejl: Manglende påkrævet værdi</string>
+  <string name="error_add_listitem">Fejl: Kunne ikke tilføje nyt element til listen</string>
+  <string name="sms_sender_heading">Videresendt fra:</string>
+  <string name="pref_template_title">SMS Skabelon</string>
+  <string name="pref_template_summary">Vælg layout for videresendt besked</string>
+  <string name="pref_template_name_prefix">Vis afsender øverst</string>
+  <string name="pref_template_name_suffix">Vis afsender i slutningen</string>
 </resources>

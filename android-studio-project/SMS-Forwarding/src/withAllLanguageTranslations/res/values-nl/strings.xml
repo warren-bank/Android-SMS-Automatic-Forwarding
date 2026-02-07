@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">SMS Doorsturen</string>
-  <string name="label_enable">Dienst inschakelen</string>
-  <string name="label_recipient">Doorsturende ontvanger:</string>
-  <string name="label_sender">Afzender moet eindigen met:</string>
+  <string name="label_enable">Service inschakelen</string>
+  <string name="label_recipient">Doorsturen naar ontvanger:</string>
+  <string name="label_sender">De afzender moet eindigen met:</string>
   <string name="label_button_cancel">ANNULEREN</string>
-  <string name="label_button_delete">DELETE</string>
-  <string name="label_button_save">SAVE</string>
-  <string name="menu_add">ADD</string>
-  <string name="error_missing_required_value">Fout: ontbrekende vereiste waarde</string>
-  <string name="error_add_listitem">Fout: kon geen nieuw item aan lijst toevoegen</string>
-  <string name="sms_preface_heading">Doorgestuurd van:</string>
+  <string name="label_button_delete">VERWIJDEREN</string>
+  <string name="label_button_save">OPSLAAN</string>
+  <string name="menu_add">TOEVOEGEN</string>
+  <string name="menu_settings">Instellingen</string>
+  <string name="error_missing_required_value">Fout: Vereiste waarde ontbreekt</string>
+  <string name="error_add_listitem">Fout: Kan geen nieuw item aan lijst toevoegen</string>
+  <string name="sms_sender_heading">Doorstuurd van:</string>
+  <string name="pref_template_title">SMS Sjabloon</string>
+  <string name="pref_template_summary">Kies de lay-out van het doorgestuurde bericht</string>
+  <string name="pref_template_name_prefix">Afzender bovenaan weergeven</string>
+  <string name="pref_template_name_suffix">Afzender aan het einde weergeven</string>
 </resources>
