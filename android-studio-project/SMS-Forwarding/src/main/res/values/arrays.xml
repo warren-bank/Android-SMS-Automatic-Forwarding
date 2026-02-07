@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array name="pref_template_names">
+    <item>@string/pref_template_name_prefix</item>
+    <item>@string/pref_template_name_suffix</item>
+  </string-array>
+
+  <string-array translatable="false" name="pref_template_values">
+    <item>@string/pref_template_value_prefix</item>
+    <item>@string/pref_template_value_suffix</item>
+  </string-array>
+
+</resources>

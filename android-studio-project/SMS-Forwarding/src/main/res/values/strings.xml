@@ -10,9 +10,20 @@
   <string name="label_button_save">SAVE</string>
 
   <string name="menu_add">ADD</string>
+  <string name="menu_settings">Settings</string>
 
   <string name="error_missing_required_value">Error: Missing Required Value</string>
   <string name="error_add_listitem">Error: Could not add new item to list</string>
 
-  <string name="sms_preface_heading">Forwarded from:</string>
+  <string name="sms_sender_heading">Forwarded from:</string>
+
+  <!-- Preferences -->
+  <string translatable="false" name="pref_template_key">pref_template</string>
+  <string name="pref_template_title">SMS Template</string>
+  <string name="pref_template_summary">Choose layout of fowarded message</string>
+  <string name="pref_template_name_prefix">Show sender at top</string>
+  <string name="pref_template_name_suffix">Show sender at end</string>
+  <string translatable="false" name="pref_template_value_prefix">pref_template_value_prefix</string>
+  <string translatable="false" name="pref_template_value_suffix">pref_template_value_suffix</string>
+  <string translatable="false" name="pref_template_default_value">@string/pref_template_value_prefix</string>
 </resources>

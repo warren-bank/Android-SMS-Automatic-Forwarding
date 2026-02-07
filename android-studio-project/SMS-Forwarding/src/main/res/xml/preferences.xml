@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <ListPreference
+    android:key="@string/pref_template_key"
+    android:title="@string/pref_template_title"
+    android:summary="@string/pref_template_summary"
+    android:defaultValue="@string/pref_template_default_value"
+    android:entries="@array/pref_template_names"
+    android:entryValues="@array/pref_template_values" />
+
+</PreferenceScreen>

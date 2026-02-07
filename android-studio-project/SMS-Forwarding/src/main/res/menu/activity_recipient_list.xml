@@ -6,4 +6,8 @@
     android:title="@string/menu_add"
     android:icon="@drawable/menu_add"
     android:showAsAction="always" />
+  <item
+    android:id="@+id/menu_settings"
+    android:title="@string/menu_settings"
+    android:showAsAction="never" />
 </menu>

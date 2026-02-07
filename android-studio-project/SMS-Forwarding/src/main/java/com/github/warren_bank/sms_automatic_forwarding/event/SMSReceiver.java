@@ -36,7 +36,7 @@ public class SMSReceiver extends BroadcastReceiver {
     if (action.equals(SMS_RECEIVED)) {
       final SmsMessage[] messages = get_SmsMessages(extras);
 
-      String sender                = null;
+      String sender_phone_number   = null;
       ArrayList<String> recipients = null;
       String body                  = null;
       String sender_contact_name   = null;
@@ -46,8 +46,8 @@ public class SMSReceiver extends BroadcastReceiver {
           continue;
 
         try {
-          sender     = message.getOriginatingAddress().trim();
-          recipients = RecipientListItem.match(listItems, sender);
+          sender_phone_number = message.getOriginatingAddress().trim();
+          recipients          = RecipientListItem.match(listItems, sender_phone_number);
 
           if (!recipients.isEmpty()) {
             body = message.getMessageBody();
@@ -56,11 +56,11 @@ public class SMSReceiver extends BroadcastReceiver {
               body = body.trim();
 
               if (!body.isEmpty()) {
-                Log.i(TAG, "SMS received.\nfrom: " + sender + "\nmessage: " + body);
+                Log.i(TAG, "SMS received.\nfrom: " + sender_phone_number + "\nmessage: " + body);
 
-                sender_contact_name = Contacts.getContactName(context, sender);
+                sender_contact_name = Contacts.getContactName(context, sender_phone_number);
 
-                SMSSender.forward(context, recipients, sender, sender_contact_name, body);
+                SMSSender.forward(context, recipients, sender_phone_number, sender_contact_name, body);
               }
             }
           }

@@ -103,6 +103,10 @@ public class RecipientListActivity extends Activity {
         showEditDialog(-1);
         return true;
       }
+      case R.id.menu_settings : {
+        startActivity(SettingsActivity.getStartIntent(RecipientListActivity.this));
+        return true;
+      }
       default: {
         return super.onOptionsItemSelected(menuItem);
       }
