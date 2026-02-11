@@ -40,24 +40,45 @@ Android app that listens for incoming SMS text messages and conditionally forwar
 #### Forwarding Rules (Advanced Usage):
 
 * `Forwarding recipient` field:
-  - supports: comma-separated list of values
-  - example:
-    * `8001190000,8002290000,8003390000`
+  - supports:
+    * comma-separated list of values
+      - example:
+        ```text
+          8001190000,8002290000,8003390000
+        ```
+    * line-separated list of values
+      - example:
+        ```text
+          8001190000
+          8002290000
+          8003390000
+        ```
 * `Sender must end with` field:
-  - supports: `<whitelist><list-separator><blacklist>`
-  - where:
-    * both `<whitelist>` and `<blacklist>` are a comma-separated list of values
-    * `<whitelist>` is required
-    * `<blacklist>` is optional
-    * `<list-separator>` is a single character that denotes the start of `<blacklist>`
-      - any of the following characters are allowed: `!/#`
-  - special case:
-    * `<whitelist>` is `*`<br>&hellip;all other values in its comma-separated list are ignored
-  - examples:
-    * `8001190000,8002290000,8003390000`
-    * `*/8001190000,8002290000,8003390000`
-    * `0000/8001190000,8002290000,8003390000`
-    * `0000/90000`
+  - supports:
+    * `<whitelist><list-separator><blacklist>`
+      - where:
+        * both `<whitelist>` and `<blacklist>` are a comma-separated or line-separated list of values
+        * `<whitelist>` is required
+          - special case:
+            * when the value of a list item is the single character: `*`<br>&hellip;all other values in `<whitelist>` are ignored
+        * `<blacklist>` is optional
+        * `<list-separator>` is an optional special token that denotes the start of `<blacklist>`
+          - supported tokens:
+            * any of the following single characters: `!/#`
+            * an empty line
+      - examples (comma-separated):
+        * `8001190000,8002290000,8003390000`
+        * `*/8001190000,8002290000,8003390000`
+        * `0000/8001190000,8002290000,8003390000`
+        * `0000/90000`
+      - example (line-separated):
+        ```text
+          *
+
+          8001190000
+          8002290000
+          8003390000
+        ```
 
 - - - -
 

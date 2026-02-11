@@ -25,8 +25,8 @@
       android:id="@+id/input_recipient"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:inputType="number|textMultiLine"
-      android:maxLength="15" />
+      android:inputType="textMultiLine"
+      android:scrollHorizontally="false" />
 
     <TextView
       android:layout_marginTop="10dp"
@@ -39,8 +39,8 @@
       android:id="@+id/input_sender"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:inputType="number|textMultiLine"
-      android:maxLength="15" />
+      android:inputType="textMultiLine"
+      android:scrollHorizontally="false" />
 
     <LinearLayout
       android:layout_marginTop="10dp"

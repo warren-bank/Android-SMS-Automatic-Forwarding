@@ -103,18 +103,18 @@ public final class RecipientListItem {
     private String[] sender_blacklist;
 
     private static String[] splitCSV(String list) {
-      return splitCSV(list, ',');
-    }
-
-    private static String[] splitCSV(String list, char delimiter) {
-      return splitCSV(list, String.valueOf(delimiter));
+      return splitCSV(list, /* delimiter */ "[,\\n]+");
     }
 
     private static String[] splitCSV(String list, String delimiter) {
+      return splitCSV(list, delimiter, /* limit */ 0);
+    }
+
+    private static String[] splitCSV(String list, String delimiter, int limit) {
       if (list == null) return null;
 
-      String regex = "\\s*" + delimiter + "\\s*";
-      return list.trim().split(regex);
+      String regex = "\\s*(?:" + delimiter + ")\\s*";
+      return list.trim().split(regex, limit);
     }
 
     private static void sanitizeInput(String[] input, boolean allowGlobPattern) {
@@ -153,7 +153,7 @@ public final class RecipientListItem {
     }
 
     private void parseSender(String sender) {
-      String[] parts = splitCSV(sender, "[!/#]");
+      String[] parts = splitCSV(sender, "[!/#]+|[\\n]{2,}", 2);
 
       if (parts == null)
         return;
